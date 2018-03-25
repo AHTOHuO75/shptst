@@ -37,6 +37,12 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+
+        'frontendUrlManager' => require __DIR__ . '/../../frontend/config/urlManager.php',
+        'backendUrlManager' => require __DIR__ . '/urlManager.php',
+        'urlManager' => function () {
+            return Yii::$app->get('backendUrlManager');
+        },
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,

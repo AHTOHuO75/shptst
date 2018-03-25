@@ -24,7 +24,15 @@
         "yiisoft/yii2-gii": "~2.0.0",
         "yiisoft/yii2-faker": "~2.0.0",
         "codeception/base": "^2.2.3",
-        "codeception/verify": "~0.3.1"
+        "codeception/verify": "~0.3.1",
+        "almasaeed2010/adminlte": "~2.4.3",
+        "dmstr/yii2-adminlte-asset": "^2.6.0",
+        "webmozart/assert": "^1.2",
+        "la-haute-societe/yii2-save-relations-behavior": "^1.4.1",
+        "yiisoft/yii2-authclient": "~2.1.5",
+        "kartik-v/yii2-widgets": "*",
+        "kartik-v/yii2-field-range": "dev-master",
+        "paulzi/yii2-nested-sets": "^1.0"
     },
     "config": {
         "process-timeout": 1800,
