@@ -43,14 +43,16 @@ return [
         'urlManager' => function () {
             return Yii::$app->get('backendUrlManager');
         },
-        /*
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
+    ],
+    'as access' => [
+        'class' => 'yii\filters\AccessControl',
+        'except' => ['site/login','site/error'],
+        'rules' => [
+            [
+                'allow' => true,
+                'roles' => ['@'],
             ],
         ],
-        */
     ],
     'params' => $params,
 ];
