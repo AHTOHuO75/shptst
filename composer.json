@@ -32,7 +32,8 @@
         "yiisoft/yii2-authclient": "~2.1.5",
         "kartik-v/yii2-widgets": "*",
         "kartik-v/yii2-field-range": "dev-master",
-        "paulzi/yii2-nested-sets": "^1.0"
+        "paulzi/yii2-nested-sets": "^1.0",
+        "phpunit/phpunit": "^7"
     },
     "config": {
         "process-timeout": 1800,

@@ -23,10 +23,10 @@ class LoginFormTest extends \Codeception\Test\Unit
     public function _fixtures()
     {
         return [
-            'user' => [
+            'user' => array(
                 'class' => UserFixture::className(),
                 'dataFile' => codecept_data_dir() . 'user.php'
-            ]
+            )
         ];
     }
 
